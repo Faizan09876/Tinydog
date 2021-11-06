@@ -1,0 +1,171 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* General Elements */
+h1, h3, h4, h5 {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* SECTIONS */
+.color-section {
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Conatiners */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 5.8%;
+  text-align: left;
+}
+
+/*               Navigation Bar */
+.nav-link {
+  font-family: 'Montserrat-Light', sans-serif;
+  font-size: 1.3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.profile-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Awesome Font Icons */
+.icon {
+  color: #ef8172;
+  margin-top: 6rem;
+  margin-bottom: 1.5rem;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-head {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.features-div {
+  padding: 5%;
+}
+
+/* Testimonials-Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 6rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Using Media Query For Screen Responsiveness */
+@media (max-width:994px) {
+  #title {
+    text-align: center;
+  }
+
+  .profile-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA Section */
+.cta-text {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin-bottom: 7%;
+}
+
+.cta-button {
+  margin: 0 1.5%;
+}
+
+/* FOOTER section */
+.footer-icon {
+  margin: 0 0.7rem 1rem;
+}
+
+.footer-icon:hover {
+  color: #ff4c68;
+}
